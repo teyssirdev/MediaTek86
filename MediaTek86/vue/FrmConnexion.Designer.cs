@@ -33,12 +33,13 @@
             this.txtLogin = new System.Windows.Forms.TextBox();
             this.txtPwd = new System.Windows.Forms.TextBox();
             this.btnConnexion = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblLogin
             // 
             this.lblLogin.AutoSize = true;
-            this.lblLogin.Location = new System.Drawing.Point(208, 143);
+            this.lblLogin.Location = new System.Drawing.Point(241, 143);
             this.lblLogin.Name = "lblLogin";
             this.lblLogin.Size = new System.Drawing.Size(40, 16);
             this.lblLogin.TabIndex = 0;
@@ -47,7 +48,7 @@
             // lblPwd
             // 
             this.lblPwd.AutoSize = true;
-            this.lblPwd.Location = new System.Drawing.Point(208, 205);
+            this.lblPwd.Location = new System.Drawing.Point(241, 205);
             this.lblPwd.Name = "lblPwd";
             this.lblPwd.Size = new System.Drawing.Size(89, 16);
             this.lblPwd.TabIndex = 1;
@@ -55,35 +56,46 @@
             // 
             // txtLogin
             // 
-            this.txtLogin.Location = new System.Drawing.Point(356, 143);
+            this.txtLogin.Location = new System.Drawing.Point(413, 137);
             this.txtLogin.Name = "txtLogin";
-            this.txtLogin.Size = new System.Drawing.Size(100, 22);
+            this.txtLogin.Size = new System.Drawing.Size(160, 22);
             this.txtLogin.TabIndex = 2;
             // 
             // txtPwd
             // 
-            this.txtPwd.Location = new System.Drawing.Point(356, 199);
+            this.txtPwd.Location = new System.Drawing.Point(413, 199);
             this.txtPwd.Name = "txtPwd";
-            this.txtPwd.Size = new System.Drawing.Size(100, 22);
+            this.txtPwd.Size = new System.Drawing.Size(160, 22);
             this.txtPwd.TabIndex = 3;
             this.txtPwd.UseSystemPasswordChar = true;
             this.txtPwd.TextChanged += new System.EventHandler(this.txtPwd_TextChanged);
             // 
             // btnConnexion
             // 
-            this.btnConnexion.Location = new System.Drawing.Point(276, 277);
+            this.btnConnexion.Location = new System.Drawing.Point(269, 300);
             this.btnConnexion.Name = "btnConnexion";
-            this.btnConnexion.Size = new System.Drawing.Size(86, 23);
+            this.btnConnexion.Size = new System.Drawing.Size(217, 35);
             this.btnConnexion.TabIndex = 4;
             this.btnConnexion.Text = "Connexion\r\n";
             this.btnConnexion.UseVisualStyleBackColor = true;
             this.btnConnexion.Click += new System.EventHandler(this.btnConnexion_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(343, 51);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(102, 16);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Connectez vous";
+            // 
             // FrmConnexion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnConnexion);
             this.Controls.Add(this.txtPwd);
             this.Controls.Add(this.txtLogin);
@@ -103,5 +115,6 @@
         private System.Windows.Forms.TextBox txtLogin;
         private System.Windows.Forms.TextBox txtPwd;
         private System.Windows.Forms.Button btnConnexion;
+        private System.Windows.Forms.Label label1;
     }
 }

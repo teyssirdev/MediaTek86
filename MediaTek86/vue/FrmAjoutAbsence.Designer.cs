@@ -80,21 +80,21 @@
             this.cmbPersonnel.FormattingEnabled = true;
             this.cmbPersonnel.Location = new System.Drawing.Point(390, 104);
             this.cmbPersonnel.Name = "cmbPersonnel";
-            this.cmbPersonnel.Size = new System.Drawing.Size(121, 24);
+            this.cmbPersonnel.Size = new System.Drawing.Size(160, 24);
             this.cmbPersonnel.TabIndex = 4;
             // 
             // dtDebut
             // 
             this.dtDebut.Location = new System.Drawing.Point(345, 216);
             this.dtDebut.Name = "dtDebut";
-            this.dtDebut.Size = new System.Drawing.Size(200, 22);
+            this.dtDebut.Size = new System.Drawing.Size(260, 22);
             this.dtDebut.TabIndex = 5;
             // 
             // dtFin
             // 
             this.dtFin.Location = new System.Drawing.Point(345, 273);
             this.dtFin.Name = "dtFin";
-            this.dtFin.Size = new System.Drawing.Size(200, 22);
+            this.dtFin.Size = new System.Drawing.Size(260, 22);
             this.dtFin.TabIndex = 6;
             // 
             // cmbMotif
@@ -102,14 +102,14 @@
             this.cmbMotif.FormattingEnabled = true;
             this.cmbMotif.Location = new System.Drawing.Point(390, 156);
             this.cmbMotif.Name = "cmbMotif";
-            this.cmbMotif.Size = new System.Drawing.Size(121, 24);
+            this.cmbMotif.Size = new System.Drawing.Size(160, 24);
             this.cmbMotif.TabIndex = 7;
             // 
             // btnAjouter
             // 
-            this.btnAjouter.Location = new System.Drawing.Point(297, 359);
+            this.btnAjouter.Location = new System.Drawing.Point(279, 341);
             this.btnAjouter.Name = "btnAjouter";
-            this.btnAjouter.Size = new System.Drawing.Size(75, 23);
+            this.btnAjouter.Size = new System.Drawing.Size(160, 35);
             this.btnAjouter.TabIndex = 8;
             this.btnAjouter.Text = "Ajouter";
             this.btnAjouter.UseVisualStyleBackColor = true;
@@ -119,6 +119,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnAjouter);
             this.Controls.Add(this.cmbMotif);
@@ -129,6 +130,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "FrmAjoutAbsence";
             this.Text = "FrmAjoutAbsence";
             this.ResumeLayout(false);

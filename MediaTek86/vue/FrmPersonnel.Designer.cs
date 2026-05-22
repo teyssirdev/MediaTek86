@@ -37,6 +37,7 @@
             // 
             // dgvPersonnel
             // 
+            this.dgvPersonnel.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dgvPersonnel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPersonnel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dgvPersonnel.Location = new System.Drawing.Point(0, 52);
@@ -50,7 +51,7 @@
             // 
             this.btnAjouter.Location = new System.Drawing.Point(49, 12);
             this.btnAjouter.Name = "btnAjouter";
-            this.btnAjouter.Size = new System.Drawing.Size(75, 23);
+            this.btnAjouter.Size = new System.Drawing.Size(150, 23);
             this.btnAjouter.TabIndex = 1;
             this.btnAjouter.Text = "Ajouter";
             this.btnAjouter.UseVisualStyleBackColor = true;
@@ -60,7 +61,7 @@
             // 
             this.btnModifier.Location = new System.Drawing.Point(338, 12);
             this.btnModifier.Name = "btnModifier";
-            this.btnModifier.Size = new System.Drawing.Size(75, 23);
+            this.btnModifier.Size = new System.Drawing.Size(150, 23);
             this.btnModifier.TabIndex = 2;
             this.btnModifier.Text = "Modifier";
             this.btnModifier.UseVisualStyleBackColor = true;
@@ -68,9 +69,9 @@
             // 
             // btnSupprimer
             // 
-            this.btnSupprimer.Location = new System.Drawing.Point(658, 12);
+            this.btnSupprimer.Location = new System.Drawing.Point(616, 12);
             this.btnSupprimer.Name = "btnSupprimer";
-            this.btnSupprimer.Size = new System.Drawing.Size(93, 23);
+            this.btnSupprimer.Size = new System.Drawing.Size(150, 23);
             this.btnSupprimer.TabIndex = 3;
             this.btnSupprimer.Text = "Supprimer";
             this.btnSupprimer.UseVisualStyleBackColor = true;
@@ -80,6 +81,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnSupprimer);
             this.Controls.Add(this.btnModifier);

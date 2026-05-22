@@ -28,5 +28,14 @@ namespace MediaTek86.vue
             FrmAbsence frm = new FrmAbsence();
             frm.ShowDialog();
         }
+        private void btnQuitter_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnQuitter_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
